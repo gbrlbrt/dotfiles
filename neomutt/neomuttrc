@@ -110,7 +110,7 @@ macro index,pager B "<view-attachments><search>html<enter><view-mailcap><exit>"
 #set forward_decode                   # decode when forwarding
 #set attribution = "On %d, %n wrote:" # format of quoting header
 #set reply_to                         # reply to Reply to: field
-#set editor = "nvim +':set textwidth=72'"
+set editor = "nvim +':set textwidth=72'"
 #set text_flowed
 #unset sig_dashes                     # no dashes before sig
 
